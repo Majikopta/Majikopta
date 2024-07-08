@@ -1,4 +1,30 @@
-- 👋 Hi, I’m @Majikopta
+{
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": ["example.com"],
+      "resourceTypes": [
+        "csp_report",
+        "font",
+        "image",
+        "main_frame",
+        "media",
+        "object",
+        "other",
+        "ping",
+        "script",
+        "stylesheet",
+        "sub_frame",
+        "webbundle",
+        "websocket",
+        "webtransport",
+        "xmlhttprequest"
+      ]
+    }
+  }- 👋 Hi, I’m @Majikopta
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
